@@ -1,27 +1,70 @@
+[**BG**](README_bg.md) | [**DE**](README_de.md) | **EN** | [**RU**](README_ru.md) | [**UK**](README_uk.md)
+
 # EventEmitter
 
-EventEmitter - это объект, который реализует работу с событиями.
+EventEmitter is an object that implements event handling.
 
-## Собственные события
+## Installation
 
-- **newListener**: Генерируется каждый раз, когда добавляются новые слушатели. Передает имя события и ссылку на добавляемого слушателя.
+1. Open your project in [Google Apps Script Dashboard](https://script.google.com/).
+2. Copy the contents of the `index.js` file and paste it into a new file in your Google Apps Script project.
 
-- **removeListener**: Генерируется каждый раз, когда существующие слушатели удаляются. Передает имя события и ссылку на удаляемого слушателя.
+## Usage
 
-- **error**: Генерируется при возникновении ошибки. Если событие не имеет подписчиков, то генерируется исключение.
+### Creating an EventEmitter instance
 
-## TODO
+```javascript
+const emitter = EventEmitter.create();
+```
 
-- Необходимо протестировать методы `emitter.prependListener(eventName, listener)` и `emitter.prependOnceListener(eventName, listener)`.
+### Subscribing to an event
 
-## История изменений
+```javascript
+emitter.on('eventName', function(data) {
+  console.log(data);
+});
+```
 
-- **2.0.0**: Улучшена документация JSDoc. Добавлены два собственных события `newListener` и `removeListener`.
+### Initiating an event
 
-- **1.0.7**: Добавлена возможность использования регулярных выражений для имен событий.
+```javascript
+emitter.emit('eventName', { data: true });
+```
 
-- **1.0.6**: Стабильная версия.
+### Unsubscribing from an event
 
-- **1.0.5**: Событие "error" теперь не выдает исключение, если имеет одного или более подписчиков.
+```javascript
+function eventHandler(data) {
+  console.log(data);
+}
 
-- **1.0.3**: Релиз.
+emitter.on('eventName', eventHandler);
+emitter.off('eventName', eventHandler);
+```
+
+### One-time event subscription
+
+```javascript
+emitter.once('eventName', function(data) {
+  console.log(data);
+});
+```
+
+## Custom events
+
+- **newListener**: Triggered every time new listeners are added. Passes the event name and a reference to the added listener.
+- **removeListener**: Triggered every time existing listeners are removed. Passes the event name and a reference to the removed listener.
+- **error**: Triggered when an error occurs. If the event has no subscribers, an exception is thrown.
+
+## Tasks
+
+- [ ] Need to test the method `emitter.prependListener(eventName, listener)`.
+- [ ] Need to test the method `emitter.prependOnceListener(eventName, listener)`.
+
+## Changelog
+
+- **2.0.0**: Improved JSDoc documentation. Added two custom events `newListener` and `removeListener`.
+- **1.0.7**: Added the ability to use regular expressions for event names.
+- **1.0.6**: Stable version.
+- **1.0.5**: The `error` event no longer throws an exception if it has one or more subscribers.
+- **1.0.0**: Release.
