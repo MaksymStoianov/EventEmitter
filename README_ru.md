@@ -58,7 +58,8 @@ emitter.once('eventName', function(data) {
 
 ## Задачи
 
-- [ ] Необходимо протестировать методы `emitter.prependListener(eventName, listener)` и `emitter.prependOnceListener(eventName, listener)`.
+- [ ] Необходимо протестировать метод `emitter.prependListener(eventName, listener)`.
+- [ ] Необходимо протестировать метод `emitter.prependOnceListener(eventName, listener)`.
 
 ## История изменений
 
