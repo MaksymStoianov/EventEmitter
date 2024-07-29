@@ -1,5 +1,4 @@
 # MIT License
----
 
 Copyright (c) 2023 Maksym Stoianov
 
