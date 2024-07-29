@@ -1,4 +1,5 @@
-[**BG**](README_bg.md) | [**DE**](README_de.md) | [**EN**](README.md) | **RU** | [**UK**](README_uk.md)
+[Български](README-BG.md) | [Deutsch](README-DE.md) | [English](README.md) | **Русский** | [Українська](README-UK.md)
+---
 
 # EventEmitter
 

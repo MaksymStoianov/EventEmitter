@@ -4,8 +4,11 @@
 # Ignore system files:
 *.DS_Store
 
+
 # Ignore clasp configuration files:
-**/.clasp.json
+.gitignore
+.claspignore
+.clasp.json
 
 # Ignore specific files in src directory:
 **/src/readme.html
