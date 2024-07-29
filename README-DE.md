@@ -1,5 +1,5 @@
-[Български](README-BG.md) | **Deutsch** | [English](README.md) | [Русский](README-RU.md) | [Українська](README-UK.md)
----
+[Български](README-BG.md) • **Deutsch** • [English](README.md) • [Русский](README-RU.md) • [Українська](README-UK.md)
+
 
 # EventEmitter
 

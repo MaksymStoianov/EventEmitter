@@ -1,5 +1,5 @@
-[Български](README-BG.md) | [Deutsch](README-DE.md) | **English** | [Русский](README-RU.md) | [Українська](README-UK.md)
----
+[Български](README-BG.md) • [Deutsch](README-DE.md) • **English** • [Русский](README-RU.md) • [Українська](README-UK.md)
+
 
 # EventEmitter
 
@@ -74,14 +74,11 @@ emitter.once('eventName', function(data) {
 Please read [CONTRIBUTING.md](CONTRIBUTING.md) for details on how to contribute to this project.
 
 
-[Contributing guidelines here.]()
-
-
 ## Changelog
 
-For a detailed list of changes and updates, please refer to the [Changelog](CHANGELOG.md) file.
+For a detailed list of changes and updates, please refer to the [CHANGELOG.md](CHANGELOG.md) file.
 
 
 ## License
 
-[License information here.](LICENSE.md)
+This project is licensed under the [LICENSE.md](LICENSE.md) file.
