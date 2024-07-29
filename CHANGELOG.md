@@ -8,14 +8,14 @@
 
 ### Added
 * Added new static methods to the `EventEmitter` class:
-  * `EventEmitter.newEmitter`
-  * `EventEmitter.create`
-  * `EventEmitter.createEmitter`
-  * `EventEmitter.newEvent`
-  * `EventEmitter.newListener`
-  * `EventEmitter.isEmitter`
-  * `EventEmitter.isEvent`
-  * `EventEmitter.isListener`
+  * `newEmitter(...args)`
+  * `create(...args)`
+  * `createEmitter(...args)`
+  * `newEvent(...args)`
+  * `newListener(...args)`
+  * `isEmitter(input)`
+  * `isEvent(input)`
+  * `isListener(input)`
 
 
 ## [2.0.0] - 2023-10-29
