@@ -1,9 +1,14 @@
 [Български](README-BG.md) • [Deutsch](README-DE.md) • [English](README.md) • **Русский** • [Українська](README-UK.md)
 
+---
+
+[![License](https://img.shields.io/github/license/microsoft/semantic-kernel)](https://github.com/MaksymStoianov/EventEmitter/blob/master/LICENSE.md) [![clasp](https://img.shields.io/badge/built%20with-clasp-4285f4.svg)](https://github.com/google/clasp)
+
 
 # EventEmitter
 
 EventEmitter - это объект, который реализует работу с событиями.
+
 
 ## Установка
 

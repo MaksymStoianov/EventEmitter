@@ -1,11 +1,13 @@
 [Български](README-BG.md) • [Deutsch](README-DE.md) • **English** • [Русский](README-RU.md) • [Українська](README-UK.md)
 
+---
+
+[![License](https://img.shields.io/github/license/microsoft/semantic-kernel)](https://github.com/MaksymStoianov/EventEmitter/blob/master/LICENSE.md) [![clasp](https://img.shields.io/badge/built%20with-clasp-4285f4.svg)](https://github.com/google/clasp)
+
 
 # EventEmitter
 
 EventEmitter is an object that implements event handling.
-
-[![License](https://img.shields.io/github/license/microsoft/semantic-kernel)](https://github.com/MaksymStoianov/EventEmitter/blob/master/LICENSE.md) [![clasp](https://img.shields.io/badge/built%20with-clasp-4285f4.svg)](https://github.com/google/clasp)
 
 
 ## Installation
