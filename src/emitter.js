@@ -28,7 +28,7 @@
  * `EventEmitter` - представляет собой объект реализующий работу с событиями.
  * @class               EventEmitter
  * @namespace           EventEmitter
- * @version             2.0.3
+ * @version             2.1.3
  * @author              Maksym Stoianov <stoianov.maksym@gmail.com>
  * @license             MIT
  * @borrows             EventEmitter#newEmitter as EventEmitter#create
@@ -36,16 +36,6 @@
  * @tutorial            https://maksymstoianov.com/
  * @see                 [Source](https://script.google.com/home/projects/1x0FGYO3nLZy71h10SmYFaiWK_nZJFkzHGe28usjhVrSKyFQ4PbCtGDsl/edit)
  * @see                 [Source](https://github.com/MaksymStoianov/EventEmitter)
- *
- * Идеи для 3.0
- * @todo ? Хранить `Events` и `Listener` в `Emitter`.
- * @todo Разрешить регистрацию событий с приоритетом, чтобы обратные вызовы выполнялись в определенном порядке.
- * @todo Ограничить количество вызовов `Listener` для события.
- * @todo ? Заменить `Listener` на `EventCallback`.
- * @todo `emitter.clearEvents()`.
- * @todo `event.clearListeners()`.
- * @todo ? `event.addToEmitter(emitter)`.
- * @todo ? `listener.addToEvent(event)`.
  */
 class EventEmitter {
 
@@ -146,7 +136,7 @@ class EventEmitter {
  * Конструктор `Emitter` - представляет собой объект для работы с эмиттером.
  * @class               Emitter
  * @memberof            EventEmitter
- * @version             2.0.2
+ * @version             2.1.3
  * @borrows             Emitter#addListener as Emitter#on
  * @borrows             Emitter#addListener as Emitter#subscribe
  * @borrows             Emitter#addListener as Emitter#append
@@ -664,7 +654,7 @@ EventEmitter.Emitter = class Emitter {
  * Конструктор `Event` - представляет собой объект для работы с событием.
  * @class               Event
  * @memberof            EventEmitter
- * @version             2.0.2
+ * @version             2.1.3
  * @borrows             Event#getEmitter as Event#getParent
  * @borrows             Event#addListener as Event#subscribe
  * @borrows             Event#addListener as Event#on
@@ -1018,7 +1008,7 @@ EventEmitter.Event = class Event {
  * Конструктор `EventCallback` - представляет собой объект для работы со слушателем.
  * @class               Listener
  * @memberof            EventEmitter
- * @version             2.0.2
+ * @version             2.1.3
  * @borrows             Event#getEvent as Event#getParent
  * @borrows             Event#emit as Event#trigger
  * @borrows             Event#emit as Event#publish
