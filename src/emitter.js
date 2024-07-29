@@ -40,7 +40,7 @@
 class EventEmitter {
 
   /**
-   * Создает и возвращает экземпляр класса [`Emitter`](#).
+   * Создает и возвращает экземпляр класса [`Emitter`](#Emitter).
    * @return {EventEmitter.Emitter}
    */
   static newEmitter(...args) {
