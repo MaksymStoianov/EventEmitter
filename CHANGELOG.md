@@ -1,6 +1,23 @@
 # Changelog
 
 
+## [2.1.3] - 2024-07-29
+
+### Enhancements
+* Enhanced JSDoc documentation for improved clarity and detail.
+
+### Added
+* Added new static methods to the `EventEmitter` class:
+  * `EventEmitter.newEmitter`
+  * `EventEmitter.create`
+  * `EventEmitter.createEmitter`
+  * `EventEmitter.newEvent`
+  * `EventEmitter.newListener`
+  * `EventEmitter.isEmitter`
+  * `EventEmitter.isEvent`
+  * `EventEmitter.isListener`
+
+
 ## [2.0.0] - 2023-10-29
 
 ### Enhancements
