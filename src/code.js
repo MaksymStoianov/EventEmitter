@@ -28,7 +28,7 @@
  * `EventEmitter` - представляет собой объект реализующий работу с событиями.
  * @class               EventEmitter
  * @namespace           EventEmitter
- * @version             2.0.2
+ * @version             2.0.3
  * @author              Maksym Stoianov <stoianov.maksym@gmail.com>
  * @license             MIT
  * @borrows             EventEmitter#newEmitter as EventEmitter#create
