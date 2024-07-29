@@ -1,8 +1,15 @@
-*.DS_Store
-*.log
-
+# Ignore catalogs:
 .vscode/
-**/src/.clasp.json
+
+# Ignore system files:
+*.DS_Store
+
+# Ignore clasp configuration files:
+**/.clasp.json
+
+# Ignore specific files in src directory:
 **/src/readme.html
 **/src/license.html
-**/src/~*
+
+# Ignore temporary files in any directory:
+**/~*
