@@ -1,8 +1,14 @@
-[Български](README-BG.md) • [Deutsch](README-DE.md) • [English](README.md) • [Русский](README-RU.md) • **Українська**
+<div id="badges" align="right">
+  <a href="README-BG.md" target="_blank"><img src="https://img.shields.io/badge/BG-grey?style=flat&label=Български" alt="Български"></a>
+  <a href="README-DE.md" target="_blank"><img src="https://img.shields.io/badge/DE-grey?style=flat&label=Deutsch" alt="Deutsch"></a>
+  <a href="README.md" target="_blank"><img src="https://img.shields.io/badge/EN-grey?style=flat&label=English" alt="English"></a>
+  <a href="README-RU.md" target="_blank"><img src="https://img.shields.io/badge/RU-grey?style=flat&label=Русский" alt="Русский"></a>
+  <a href="README-UK.md" target="_blank"><img src="https://img.shields.io/badge/UK-grey?style=flat&label=Українська" alt="Українська"></a>
+</div>
 
 ---
 
-[![License](https://img.shields.io/github/license/microsoft/semantic-kernel)](https://github.com/MaksymStoianov/EventEmitter/blob/master/LICENSE.md) [![clasp](https://img.shields.io/badge/built%20with-clasp-4285f4.svg)](https://github.com/google/clasp)
+[![License](https://img.shields.io/github/license/MaksymStoianov/EventEmitter)](https://github.com/MaksymStoianov/EventEmitter/blob/master/LICENSE.md) [![clasp](https://img.shields.io/badge/built%20with-clasp-4285f4.svg)](https://github.com/google/clasp)
 
 
 # EventEmitter
