@@ -1,0 +1,8 @@
+*.DS_Store
+*.log
+
+.vscode/
+**/src/.clasp.json
+**/src/readme.html
+**/src/license.html
+**/src/~*
