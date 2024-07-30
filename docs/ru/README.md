@@ -20,7 +20,7 @@ EventEmitter - это объект, который реализует работ
 ## Установка
 
 1. Откройте свой проект в [Google Apps Script Dashboard](https://script.google.com/).
-2. Скопируйте содержимое файла `index.js` и вставьте его в новый файл в вашем проекте Google Apps Script.
+2. Скопируйте содержимое файла [emitter.js](../../src/emitter.js) и вставьте его в новый файл в вашем проекте Google Apps Script.
 
 ## Использование
 
