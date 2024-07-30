@@ -19,11 +19,3 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
-
-<ul id="locales" align="left">
-  <li><a href="docs/bg/LICENSE.md">Български</a></li>
-  <li><a href="docs/de/LICENSE.md">Deutsch</a></li>
-  <li><a href="docs/en/LICENSE.md">English</a></li>
-  <li><a href="docs/ru/LICENSE.md">Русский</a></li>
-  <li><a href="docs/uk/LICENSE.md">Українська</a></li>
-</ol>
