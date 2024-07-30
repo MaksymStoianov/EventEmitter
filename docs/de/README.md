@@ -1,18 +1,18 @@
 <div id="locales" align="right">
-  <a href="README-BG.md"><img src="https://img.shields.io/badge/BG-grey?style=flat" alt="Български"></a>
-  <a href="README-DE.md"><img src="https://img.shields.io/badge/DE-blue?style=flat" alt="Deutsch"></a>
-  <a href="README.md"><img src="https://img.shields.io/badge/EN-grey?style=flat" alt="English"></a>
-  <a href="README-RU.md"><img src="https://img.shields.io/badge/RU-grey?style=flat" alt="Русский"></a>
-  <a href="README-UK.md"><img src="https://img.shields.io/badge/UK-grey?style=flat" alt="Українська"></a>
+  <a href="../bg/README.md"><img src="https://img.shields.io/badge/BG-grey?style=flat" alt="Български"></a>
+  <a href="../de/README.md"><img src="https://img.shields.io/badge/DE-blue?style=flat" alt="Deutsch"></a>
+  <a href="../en/README.md"><img src="https://img.shields.io/badge/EN-grey?style=flat" alt="English"></a>
+  <a href="../ru/README.md"><img src="https://img.shields.io/badge/RU-grey?style=flat" alt="Русский"></a>
+  <a href="../uk/README.md"><img src="https://img.shields.io/badge/UK-grey?style=flat" alt="Українська"></a>
 </div>
+
+
+# EventEmitter
 
 <div id="badges" align="left">
   <a href="LICENSE.md"><img src="https://img.shields.io/github/license/MaksymStoianov/EventEmitter" alt="License"></a>
   <a href="https://github.com/google/clasp"><img src="https://img.shields.io/badge/built%20with-clasp-4285f4.svg" alt="clasp"></a>
 </div>
-
-
-# EventEmitter
 
 EventEmitter ist ein Objekt, das die Handhabung von Ereignissen implementiert.
 
