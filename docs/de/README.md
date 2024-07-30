@@ -74,10 +74,17 @@ emitter.once('eventName', function(data) {
 - [ ] Die Methode `emitter.prependListener(eventName, listener)` muss getestet werden.
 - [ ] Die Methode `emitter.prependOnceListener(eventName, listener)` muss getestet werden.
 
-## Änderungsverlauf
 
-- **2.0.0**: Verbesserte JSDoc-Dokumentation. Zwei benutzerdefinierte Ereignisse `newListener` und `removeListener` hinzugefügt.
-- **1.0.7**: Möglichkeit zur Verwendung von regulären Ausdrücken für Ereignisnamen hinzugefügt.
-- **1.0.6**: Stabile Version.
-- **1.0.5**: Das Ereignis `error` löst jetzt keine Ausnahme mehr aus, wenn es einen oder mehrere Abonnenten hat.
-- **1.0.0**: Veröffentlichung.
+## Beitragen
+
+Bitte lesen Sie [CONTRIBUTING.md](CONTRIBUTING.md) für Details, wie Sie zu diesem Projekt beitragen können.
+
+
+## Changelog
+
+Eine detaillierte Liste der Änderungen und Aktualisierungen finden Sie in der Datei [CHANGELOG.md](CHANGELOG.md).
+
+
+## Lizenz
+
+Dieses Projekt ist lizenziert unter der Datei [LICENSE.md](LICENSE.md).

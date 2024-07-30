@@ -1,1 +1,1 @@
-# How to become a contributor?
+# Wie wird man ein Beitragszahler?

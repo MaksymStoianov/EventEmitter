@@ -1,1 +1,1 @@
-# How to become a contributor?
+# Як стати учасником?

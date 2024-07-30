@@ -3,11 +3,11 @@
 
 ## [2.1.3] - 2024-07-29
 
-### Enhancements
-* Enhanced JSDoc documentation for improved clarity and detail.
+### Улучшения.
+* Улучшена документация JSDoc для повышения ясности и детализации.
 
-### Added
-* Added new static methods to the `EventEmitter` class:
+### Добавлено.
+* Добавлены новые статические методы в класс `EventEmitter`:
   * `newEmitter(...args)`
   * `create(...args)`
   * `createEmitter(...args)`
@@ -20,29 +20,29 @@
 
 ## [2.0.0] - 2023-10-29
 
-### Enhancements
-* Enhanced JSDoc documentation for improved clarity and detail.
+### Улучшения.
+* Улучшена документация JSDoc для повышения ясности и детализации.
 
-### Added
-* Added event `newListener` for better event handling.
-* Added event `removeListener` for managing event listeners.
+### Добавлено.
+* Добавлено событие `newListener` для лучшей обработки событий.
+* Добавлено событие `removeListener` для управления слушателями событий.
 
-### Fixes
-* Resolved various bugs and issues.
+### Исправления.
+* Устранены различные ошибки и проблемы.
 
 
 ## [1.0.7]
 
-### Enhancements
-* Added support for using regular expressions in event names.
+### Улучшения
+* Добавлена поддержка использования регулярных выражений в именах событий.
 
 
 ## [1.0.5]
 
-### Enhancements
-* Modified the `error` event to prevent exceptions when there are one or more subscribers.
+### Улучшения
+* Модифицировано событие `error` для предотвращения исключений при наличии одного или более подписчиков.
 
 
 ## [1.0.0]
 
-* Initial release.
+* Первоначальный выпуск.

@@ -1,3 +1,5 @@
+# Security policy
+
 <ul id="locales" align="left">
   <li><a href="docs/bg/SECURITY.md">Български</a></li>
   <li><a href="docs/de/SECURITY.md">Deutsch</a></li>

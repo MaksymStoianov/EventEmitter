@@ -3,46 +3,46 @@
 
 ## [2.1.3] - 2024-07-29
 
-### Enhancements
-* Enhanced JSDoc documentation for improved clarity and detail.
+### Erweiterungen
+* Verbesserte JSDoc-Dokumentation für mehr Klarheit und Detailgenauigkeit.
 
-### Added
-* Added new static methods to the `EventEmitter` class:
+### Hinzugefügt
+* Neue statische Methoden in der Klasse `EventEmitter` hinzugefügt:
   * `newEmitter(...args)`
   * `create(...args)`
   * `createEmitter(...args)`
-  * `newEvent(...args)`
+  * `neuesEreignis(...args)`
   * `newListener(...args)`
   * `isEmitter(input)`
-  * `isEvent(input)`
+  * `istEreignis(Eingabe)`
   * `isListener(input)`
 
 
 ## [2.0.0] - 2023-10-29
 
-### Enhancements
-* Enhanced JSDoc documentation for improved clarity and detail.
+### Erweiterungen
+* Die JSDoc-Dokumentation wurde für mehr Klarheit und Detailreichtum erweitert.
 
-### Added
-* Added event `newListener` for better event handling.
-* Added event `removeListener` for managing event listeners.
+### Hinzugefügt
+* Ereignis `newListener` für bessere Ereignisbehandlung hinzugefügt.
+* Ereignis `removeListener` für die Verwaltung von Ereignis-Listenern hinzugefügt.
 
-### Fixes
-* Resolved various bugs and issues.
+### Korrekturen
+* Verschiedene Bugs und Probleme wurden behoben.
 
 
 ## [1.0.7]
 
-### Enhancements
-* Added support for using regular expressions in event names.
+### Erweiterungen
+* Unterstützung für die Verwendung regulärer Ausdrücke in Ereignisnamen wurde hinzugefügt.
 
 
 ## [1.0.5]
 
-### Enhancements
-* Modified the `error` event to prevent exceptions when there are one or more subscribers.
+### Erweiterungen
+* Das `error`-Ereignis wurde modifiziert, um Ausnahmen zu verhindern, wenn es einen oder mehrere Abonnenten gibt.
 
 
 ## [1.0.0]
 
-* Initial release.
+* Erste Veröffentlichung.

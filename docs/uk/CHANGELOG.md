@@ -1,48 +1,48 @@
-# Changelog
+# Журнал змін
 
 
 ## [2.1.3] - 2024-07-29
 
-### Enhancements
-* Enhanced JSDoc documentation for improved clarity and detail.
+### Вдосконалення
+* Покращено документацію JSDoc для більшої ясності та деталізації.
 
-### Added
-* Added new static methods to the `EventEmitter` class:
+### Додано
+* Додано нові статичні методи до класу `EventEmitter`:
   * `newEmitter(...args)`
   * `create(...args)`
-  * `createEmitter(...args)`
-  * `newEvent(...args)`
-  * `newListener(...args)`
-  * `isEmitter(input)`
+  * `createEmitter(...args)` * `createEmitter(...args)`
+  * `newEvent(...args)` * `newListener(...args)`
+  * `newListener(...args)` * `newListener(...args)`
+  * `isEmitter(input)` * `isEmitter(input)`
   * `isEvent(input)`
-  * `isListener(input)`
+  * `isListener(input)` * `isListener(input)`
 
 
 ## [2.0.0] - 2023-10-29
 
-### Enhancements
-* Enhanced JSDoc documentation for improved clarity and detail.
+### Вдосконалення
+* Покращено документацію JSDoc для більшої ясності та деталізації.
 
-### Added
-* Added event `newListener` for better event handling.
-* Added event `removeListener` for managing event listeners.
+### Додано
+* Додано подію `newListener` для кращої обробки подій.
+* Додано подію `removeListener` для керування слухачами подій.
 
-### Fixes
-* Resolved various bugs and issues.
+### Виправлено
+* Виправлено різноманітні вади та проблеми.
 
 
 ## [1.0.7]
 
-### Enhancements
-* Added support for using regular expressions in event names.
+### Вдосконалення
+* Додано підтримку використання регулярних виразів у назвах подій.
 
 
 ## [1.0.5]
 
-### Enhancements
-* Modified the `error` event to prevent exceptions when there are one or more subscribers.
+### Вдосконалення
+* Модифіковано подію `error` для запобігання виникненню винятків за наявності одного або більше абонентів.
 
 
 ## [1.0.0]
 
-* Initial release.
+* Початковий випуск.
