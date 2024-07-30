@@ -1,9 +1,0 @@
-# Ignore all files and directories:
-**/**
-
-# Except for the following files and extensions:
-!appsscript.json
-!**/*.gs
-!**/*.js
-!**/*.ts
-!**/*.html
