@@ -35,7 +35,7 @@
  * @borrows             EventEmitter#newEmitter as EventEmitter#createEmitter
  * @tutorial            https://maksymstoianov.com/
  * @see                 [Source](https://script.google.com/home/projects/1x0FGYO3nLZy71h10SmYFaiWK_nZJFkzHGe28usjhVrSKyFQ4PbCtGDsl/edit)
- * @see                 [Source](https://github.com/MaksymStoianov/EventEmitter)
+ * @see                 [GitHub](https://github.com/MaksymStoianov/EventEmitter)
  */
 class EventEmitter {
 

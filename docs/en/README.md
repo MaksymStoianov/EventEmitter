@@ -10,6 +10,7 @@
 # EventEmitter
 
 <div id="badges" align="left">
+  <img src="https://img.shields.io/github/v/release/MaksymStoianov/EventEmitter" alt="Release">
   <a href="LICENSE.md"><img src="https://img.shields.io/github/license/MaksymStoianov/EventEmitter" alt="License"></a>
   <a href="https://github.com/google/clasp"><img src="https://img.shields.io/badge/built%20with-clasp-4285f4.svg" alt="clasp"></a>
 </div>
