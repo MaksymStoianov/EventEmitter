@@ -34,7 +34,6 @@
  * @borrows             EventEmitter#newEmitter as EventEmitter#create
  * @borrows             EventEmitter#newEmitter as EventEmitter#createEmitter
  * @tutorial            https://maksymstoianov.com/
- * @see                 [Source](https://script.google.com/home/projects/1x0FGYO3nLZy71h10SmYFaiWK_nZJFkzHGe28usjhVrSKyFQ4PbCtGDsl/edit)
  * @see                 [GitHub](https://github.com/MaksymStoianov/EventEmitter)
  */
 class EventEmitter {
@@ -1005,7 +1004,7 @@ EventEmitter.Event = class Event {
 
 
 /**
- * Конструктор `EventCallback` - представляет собой объект для работы со слушателем.
+ * Конструктор `Listener` - представляет собой объект для работы со слушателем.
  * @class               Listener
  * @memberof            EventEmitter
  * @version             2.1.3
