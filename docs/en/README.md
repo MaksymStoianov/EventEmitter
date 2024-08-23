@@ -15,13 +15,18 @@
   <a href="https://github.com/google/clasp"><img src="https://img.shields.io/badge/built%20with-clasp-4285f4.svg" alt="clasp"></a>
 </div>
 
-EventEmitter is an object that implements event handling.
+**EventEmitter** is an object that implements event handling.
 
 
 ## Installation
 
 1. Open your project in [Google Apps Script Dashboard](https://script.google.com/).
 2. Copy the contents of the [emitter.js](../../src/emitter.js) file and paste it into a new file in your Google Apps Script project.
+
+
+## Documentation
+
+For detailed documentation, please visit the [Wiki](../../../../../wiki/en) page.
 
 
 ## Usage

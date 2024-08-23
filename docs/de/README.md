@@ -15,13 +15,19 @@
   <a href="https://github.com/google/clasp"><img src="https://img.shields.io/badge/built%20with-clasp-4285f4.svg" alt="clasp"></a>
 </div>
 
-EventEmitter ist ein Objekt, das die Handhabung von Ereignissen implementiert.
+**EventEmitter** ist ein Objekt, das die Handhabung von Ereignissen implementiert.
 
 
 ## Installation
 
 1. Öffnen Sie Ihr Projekt im [Google Apps Script Dashboard](https://script.google.com/).
 2. Kopieren Sie den Inhalt der Datei [emitter.js](../../src/emitter.js) und fügen Sie ihn in eine neue Datei in Ihrem Google Apps Script-Projekt ein.
+
+
+## Dokumentation
+
+Eine ausführliche Dokumentation finden Sie auf der Seite [Wiki](../../../../../wiki/de).
+
 
 ## Verwendung
 
@@ -69,6 +75,7 @@ emitter.once('eventName', function(data) {
 - **newListener**: Wird jedes Mal ausgelöst, wenn neue Zuhörer hinzugefügt werden. Übermittelt den Ereignisnamen und einen Verweis auf den hinzugefügten Zuhörer.
 - **removeListener**: Wird jedes Mal ausgelöst, wenn bestehende Zuhörer entfernt werden. Übermittelt den Ereignisnamen und einen Verweis auf den entfernten Zuhörer.
 - **error**: Wird ausgelöst, wenn ein Fehler auftritt. Wenn das Ereignis keine Abonnenten hat, wird eine Ausnahme ausgelöst.
+
 
 ## Aufgaben
 
