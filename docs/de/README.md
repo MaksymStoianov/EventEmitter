@@ -26,7 +26,7 @@
 
 ## Dokumentation
 
-Eine ausführliche Dokumentation finden Sie auf der Seite [Wiki](../../../../../wiki/de).
+Eine ausführliche Dokumentation finden Sie auf der Seite [Wiki](../../../../wiki/de).
 
 
 ## Verwendung
