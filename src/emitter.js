@@ -28,7 +28,7 @@
  * `EventEmitter` - представляет собой объект реализующий работу с событиями.
  * @class               EventEmitter
  * @namespace           EventEmitter
- * @version             2.1.3
+ * @version             2.1.5
  * @author              Maksym Stoianov <stoianov.maksym@gmail.com>
  * @license             MIT
  * @borrows             EventEmitter#newEmitter as EventEmitter#create
@@ -36,10 +36,18 @@
  * @tutorial            https://maksymstoianov.com/
  * @see                 [GitHub](https://github.com/MaksymStoianov/EventEmitter)
  */
+// TODO Хранить `Events` и `Listener` в `Emitter`?
+// TODO Разрешить регистрацию событий с приоритетом, чтобы обратные вызовы выполнялись в определенном порядке.
+// TODO Ограничить количество вызовов `Listener` для события.
+// TODO Заменить `Listener` на `EventCallback`?
+// TODO `emitter.clearEvents()`.
+// TODO `event.clearListeners()`.
+// TODO `event.addToEmitter(emitter)`?
+// TODO `listener.addToEvent(event)`?
 class EventEmitter {
 
   /**
-   * Создает и возвращает экземпляр класса [`Emitter`](#Emitter).
+   * Создает и возвращает экземпляр класса [`Emitter`](#).
    * @return {EventEmitter.Emitter}
    */
   static newEmitter(...args) {
@@ -135,7 +143,7 @@ class EventEmitter {
  * Конструктор `Emitter` - представляет собой объект для работы с эмиттером.
  * @class               Emitter
  * @memberof            EventEmitter
- * @version             2.1.3
+ * @version             2.0.2
  * @borrows             Emitter#addListener as Emitter#on
  * @borrows             Emitter#addListener as Emitter#subscribe
  * @borrows             Emitter#addListener as Emitter#append
@@ -653,7 +661,7 @@ EventEmitter.Emitter = class Emitter {
  * Конструктор `Event` - представляет собой объект для работы с событием.
  * @class               Event
  * @memberof            EventEmitter
- * @version             2.1.3
+ * @version             2.0.2
  * @borrows             Event#getEmitter as Event#getParent
  * @borrows             Event#addListener as Event#subscribe
  * @borrows             Event#addListener as Event#on
@@ -744,7 +752,7 @@ EventEmitter.Event = class Event {
 
     const emitter = this.getEmitter();
 
-    // todo if
+    // TODO if
 
     emitter.emit('newListener', this.getName(), callback);
 
@@ -797,7 +805,7 @@ EventEmitter.Event = class Event {
 
       const emitter = this.getEmitter();
 
-      // todo if
+      // TODO if
 
       emitter.emit('removeListener', this.getName(), callback);
     }
@@ -822,7 +830,7 @@ EventEmitter.Event = class Event {
     for (const listener of this.listeners) {
       const emitter = this.getEmitter();
 
-      // todo if
+      // TODO if
 
       emitter.emit('removeListener', this.getName(), listener.callback);
     }
@@ -864,7 +872,7 @@ EventEmitter.Event = class Event {
       } catch (error) {
         results[index] = false;
 
-        // todo event name `error`, вынести на уровень выше ?
+        // TODO event name `error`, вынести на уровень выше ?
         if (this.getName() === 'error') {
           throw error;
         }
@@ -872,7 +880,7 @@ EventEmitter.Event = class Event {
         else {
           const emitter = this.getEmitter();
 
-          // todo if
+          // TODO if
 
           emitter.emit('error', error);
         }
@@ -929,7 +937,7 @@ EventEmitter.Event = class Event {
 
     const emitter = this.getEmitter();
 
-    // todo if
+    // TODO if
 
     emitter.emit('newListener', this.getName(), callback);
 
@@ -1004,10 +1012,10 @@ EventEmitter.Event = class Event {
 
 
 /**
- * Конструктор `Listener` - представляет собой объект для работы со слушателем.
+ * Конструктор `EventCallback` - представляет собой объект для работы со слушателем.
  * @class               Listener
  * @memberof            EventEmitter
- * @version             2.1.3
+ * @version             2.0.2
  * @borrows             Event#getEvent as Event#getParent
  * @borrows             Event#emit as Event#trigger
  * @borrows             Event#emit as Event#publish
