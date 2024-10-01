@@ -46,10 +46,11 @@
 
         .container p.description {
           color: #3d444d !important;
-          font-size: 13px;
+          font-size: 15px;
           font-weight: 700;
           text-align: center;
           margin-left: 5px;
+          margin-top: 15px;
         }
 
         @keyframes animate {
