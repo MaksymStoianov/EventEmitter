@@ -1,4 +1,8 @@
-<h1 align="center">Readme</h1>
+<a href="//github.com/MaksymStoianov/EventEmitter">
+  <img src="docs/assets/images/banner-1.svg" width="800" height="400">
+</a>
+
+<hr>
 
 <div id="locales" align="center">
   <a href="docs/bg/README.md"><img src="https://img.shields.io/badge/BG-grey?style=flat" alt="Български"></a>
