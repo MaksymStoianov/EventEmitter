@@ -14,17 +14,19 @@
         }
 
         .container {
+          position: relative;
           display: flex;
           flex-direction: column;
           align-items: flex-start;
+          width: 100%;
+          padding-left: 75px;
+          padding-right: 75px;
           margin: 0;
-          padding: 75px 75px 25px;
-          width: calc(100% - 150px);
-          position: relative;
+          margin-top: 25px;
         }
 
         .container h2 {
-          font-size: 7em;
+          font-size: min(5rem, 75px);
         }
 
         .container .text {
@@ -40,6 +42,14 @@
           position: absolute;
           color: var(--color);
           animation: animate 7.5s linear infinite;
+        }
+
+        .container p.description {
+          color: #00000085 !important;
+          font-size: 13px;
+          font-weight: 700;
+          text-align: center;
+          margin-left: 5px;
         }
 
         @keyframes animate {
@@ -188,6 +198,7 @@
       <div class="container">
         <h2 class="text">EventEmitter</h2>
         <h2 class="text">EventEmitter</h2>
+        <p class="description">for Google Apps Script™</p>
       </div>
     </div>
   </foreignObject>
