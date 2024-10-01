@@ -1,6 +1,4 @@
-<a href="//github.com/MaksymStoianov/EventEmitter">
-  <img src="docs/assets/images/banner-1.svg" width="800" height="200">
-</a>
+<a href="//github.com/MaksymStoianov/EventEmitter"><img src="docs/assets/images/banner-1.svg" width="800" height="200"></a>
 
 <hr>
 
