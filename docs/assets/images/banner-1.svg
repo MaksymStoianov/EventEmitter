@@ -45,7 +45,7 @@
         }
 
         .container p.description {
-          color: #00000085 !important;
+          color: #3d444d !important;
           font-size: 13px;
           font-weight: 700;
           text-align: center;
